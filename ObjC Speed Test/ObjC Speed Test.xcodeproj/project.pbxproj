@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE93BB901C8724D100655274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93BB8F1C8724D100655274 /* main.m */; };
+		AE93BB931C8724D100655274 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93BB921C8724D100655274 /* AppDelegate.m */; };
+		AE93BB961C8724D100655274 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93BB951C8724D100655274 /* ViewController.m */; };
+		AE93BB991C8724D100655274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE93BB971C8724D100655274 /* Main.storyboard */; };
+		AE93BB9B1C8724D100655274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE93BB9A1C8724D100655274 /* Assets.xcassets */; };
+		AE93BB9E1C8724D100655274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE93BB9C1C8724D100655274 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE93BBA51C8724D100655274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE93BB831C8724D100655274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE93BB8A1C8724D100655274;
+			remoteInfo = "ObjC Speed Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE93BB8B1C8724D100655274 /* ObjC Speed Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC Speed Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE93BB8F1C8724D100655274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE93BB911C8724D100655274 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE93BB921C8724D100655274 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE93BB941C8724D100655274 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE93BB951C8724D100655274 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE93BB981C8724D100655274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE93BB9A1C8724D100655274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE93BB9D1C8724D100655274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE93BB9F1C8724D100655274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE93BBA41C8724D100655274 /* ObjC Speed TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjC Speed TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE93BBAA1C8724D100655274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE93BB881C8724D100655274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE93BBA11C8724D100655274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE93BB821C8724D100655274 = {
+			isa = PBXGroup;
+			children = (
+				AE93BB8D1C8724D100655274 /* ObjC Speed Test */,
+				AE93BBA71C8724D100655274 /* ObjC Speed TestTests */,
+				AE93BB8C1C8724D100655274 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE93BB8C1C8724D100655274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE93BB8B1C8724D100655274 /* ObjC Speed Test.app */,
+				AE93BBA41C8724D100655274 /* ObjC Speed TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE93BB8D1C8724D100655274 /* ObjC Speed Test */ = {
+			isa = PBXGroup;
+			children = (
+				AE93BB911C8724D100655274 /* AppDelegate.h */,
+				AE93BB921C8724D100655274 /* AppDelegate.m */,
+				AE93BB941C8724D100655274 /* ViewController.h */,
+				AE93BB951C8724D100655274 /* ViewController.m */,
+				AE93BB971C8724D100655274 /* Main.storyboard */,
+				AE93BB9A1C8724D100655274 /* Assets.xcassets */,
+				AE93BB9C1C8724D100655274 /* LaunchScreen.storyboard */,
+				AE93BB9F1C8724D100655274 /* Info.plist */,
+				AE93BB8E1C8724D100655274 /* Supporting Files */,
+			);
+			path = "ObjC Speed Test";
+			sourceTree = "<group>";
+		};
+		AE93BB8E1C8724D100655274 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE93BB8F1C8724D100655274 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE93BBA71C8724D100655274 /* ObjC Speed TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE93BBAA1C8724D100655274 /* Info.plist */,
+			);
+			path = "ObjC Speed TestTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE93BB8A1C8724D100655274 /* ObjC Speed Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE93BBAD1C8724D100655274 /* Build configuration list for PBXNativeTarget "ObjC Speed Test" */;
+			buildPhases = (
+				AE93BB871C8724D100655274 /* Sources */,
+				AE93BB881C8724D100655274 /* Frameworks */,
+				AE93BB891C8724D100655274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjC Speed Test";
+			productName = "ObjC Speed Test";
+			productReference = AE93BB8B1C8724D100655274 /* ObjC Speed Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE93BBA31C8724D100655274 /* ObjC Speed TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE93BBB01C8724D100655274 /* Build configuration list for PBXNativeTarget "ObjC Speed TestTests" */;
+			buildPhases = (
+				AE93BBA01C8724D100655274 /* Sources */,
+				AE93BBA11C8724D100655274 /* Frameworks */,
+				AE93BBA21C8724D100655274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE93BBA61C8724D100655274 /* PBXTargetDependency */,
+			);
+			name = "ObjC Speed TestTests";
+			productName = "ObjC Speed TestTests";
+			productReference = AE93BBA41C8724D100655274 /* ObjC Speed TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE93BB831C8724D100655274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Droids On Roids";
+				TargetAttributes = {
+					AE93BB8A1C8724D100655274 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AE93BBA31C8724D100655274 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AE93BB8A1C8724D100655274;
+					};
+				};
+			};
+			buildConfigurationList = AE93BB861C8724D100655274 /* Build configuration list for PBXProject "ObjC Speed Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE93BB821C8724D100655274;
+			productRefGroup = AE93BB8C1C8724D100655274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE93BB8A1C8724D100655274 /* ObjC Speed Test */,
+				AE93BBA31C8724D100655274 /* ObjC Speed TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE93BB891C8724D100655274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE93BB9E1C8724D100655274 /* LaunchScreen.storyboard in Resources */,
+				AE93BB9B1C8724D100655274 /* Assets.xcassets in Resources */,
+				AE93BB991C8724D100655274 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE93BBA21C8724D100655274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE93BB871C8724D100655274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE93BB961C8724D100655274 /* ViewController.m in Sources */,
+				AE93BB931C8724D100655274 /* AppDelegate.m in Sources */,
+				AE93BB901C8724D100655274 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE93BBA01C8724D100655274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE93BBA61C8724D100655274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE93BB8A1C8724D100655274 /* ObjC Speed Test */;
+			targetProxy = AE93BBA51C8724D100655274 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE93BB971C8724D100655274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE93BB981C8724D100655274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE93BB9C1C8724D100655274 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE93BB9D1C8724D100655274 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE93BBAB1C8724D100655274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE93BBAC1C8724D100655274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE93BBAE1C8724D100655274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ObjC Speed Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.droidsonroids.ObjC-Speed-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE93BBAF1C8724D100655274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ObjC Speed Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.droidsonroids.ObjC-Speed-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE93BBB11C8724D100655274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ObjC Speed TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.droidsonroids.ObjC-Speed-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjC Speed Test.app/ObjC Speed Test";
+			};
+			name = Debug;
+		};
+		AE93BBB21C8724D100655274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ObjC Speed TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.droidsonroids.ObjC-Speed-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjC Speed Test.app/ObjC Speed Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE93BB861C8724D100655274 /* Build configuration list for PBXProject "ObjC Speed Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE93BBAB1C8724D100655274 /* Debug */,
+				AE93BBAC1C8724D100655274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE93BBAD1C8724D100655274 /* Build configuration list for PBXNativeTarget "ObjC Speed Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE93BBAE1C8724D100655274 /* Debug */,
+				AE93BBAF1C8724D100655274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE93BBB01C8724D100655274 /* Build configuration list for PBXNativeTarget "ObjC Speed TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE93BBB11C8724D100655274 /* Debug */,
+				AE93BBB21C8724D100655274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE93BB831C8724D100655274 /* Project object */;
+}
