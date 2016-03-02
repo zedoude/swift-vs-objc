@@ -6,7 +6,7 @@
 //  Copyright © 2016 Droids On Roids. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {

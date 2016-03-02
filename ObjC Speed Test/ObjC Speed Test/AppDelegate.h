@@ -6,12 +6,11 @@
 //  Copyright © 2016 Droids On Roids. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+// Frameworks
+@import UIKit;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate: UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-

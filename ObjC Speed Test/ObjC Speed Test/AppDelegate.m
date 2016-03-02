@@ -6,6 +6,7 @@
 //  Copyright © 2016 Droids On Roids. All rights reserved.
 //
 
+// AppDelegate
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -13,7 +14,6 @@
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

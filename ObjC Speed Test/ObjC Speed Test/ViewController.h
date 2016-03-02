@@ -6,10 +6,9 @@
 //  Copyright © 2016 Droids On Roids. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+// Frameworks
+@import UIKit;
 
-@interface ViewController : UIViewController
-
+@interface ViewController: UIViewController
 
 @end
-
