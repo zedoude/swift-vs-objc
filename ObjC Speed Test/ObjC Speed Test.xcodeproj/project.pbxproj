@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE806B971C88207D001EC005 /* DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE806B961C88207D001EC005 /* DictionaryTests.m */; };
 		AE93BB901C8724D100655274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93BB8F1C8724D100655274 /* main.m */; };
 		AE93BB931C8724D100655274 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93BB921C8724D100655274 /* AppDelegate.m */; };
 		AE93BB961C8724D100655274 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93BB951C8724D100655274 /* ViewController.m */; };
 		AE93BB991C8724D100655274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE93BB971C8724D100655274 /* Main.storyboard */; };
 		AE93BB9B1C8724D100655274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE93BB9A1C8724D100655274 /* Assets.xcassets */; };
 		AE93BB9E1C8724D100655274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE93BB9C1C8724D100655274 /* LaunchScreen.storyboard */; };
+		AE9C4AA21C872762001D1B49 /* ArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9C4AA11C872762001D1B49 /* ArrayTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE806B961C88207D001EC005 /* DictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryTests.m; sourceTree = "<group>"; };
 		AE93BB8B1C8724D100655274 /* ObjC Speed Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC Speed Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE93BB8F1C8724D100655274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE93BB911C8724D100655274 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		AE93BB9F1C8724D100655274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE93BBA41C8724D100655274 /* ObjC Speed TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjC Speed TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE93BBAA1C8724D100655274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9C4AA11C872762001D1B49 /* ArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				AE93BBAA1C8724D100655274 /* Info.plist */,
+				AE9C4AA11C872762001D1B49 /* ArrayTests.m */,
+				AE806B961C88207D001EC005 /* DictionaryTests.m */,
 			);
 			path = "ObjC Speed TestTests";
 			sourceTree = "<group>";
@@ -218,6 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9C4AA21C872762001D1B49 /* ArrayTests.m in Sources */,
+				AE806B971C88207D001EC005 /* DictionaryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "ObjC Speed Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.droidsonroids.ObjC-Speed-Test";

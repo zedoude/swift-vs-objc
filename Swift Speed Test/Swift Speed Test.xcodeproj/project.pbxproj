@@ -12,6 +12,7 @@
 		AE9C4A871C8724F2001D1B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9C4A851C8724F2001D1B49 /* Main.storyboard */; };
 		AE9C4A891C8724F2001D1B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9C4A881C8724F2001D1B49 /* Assets.xcassets */; };
 		AE9C4A8C1C8724F2001D1B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9C4A8A1C8724F2001D1B49 /* LaunchScreen.storyboard */; };
+		AE9C4AA41C872E31001D1B49 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C4AA31C872E31001D1B49 /* ArrayTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		AE9C4A8D1C8724F2001D1B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE9C4A921C8724F2001D1B49 /* Swift Speed TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Speed TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9C4A981C8724F2001D1B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9C4AA31C872E31001D1B49 /* ArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				AE9C4A981C8724F2001D1B49 /* Info.plist */,
+				AE9C4AA31C872E31001D1B49 /* ArrayTests.swift */,
 			);
 			path = "Swift Speed TestTests";
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9C4AA41C872E31001D1B49 /* ArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "Swift Speed Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.droidsonroids.Swift-Speed-Test";
@@ -345,10 +350,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Swift Speed TestTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.droidsonroids.Swift-Speed-TestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Speed Test.app/Swift Speed Test";
 			};
 			name = Debug;
@@ -357,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Swift Speed TestTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.droidsonroids.Swift-Speed-TestTests";
@@ -384,6 +392,7 @@
 				AE9C4A9D1C8724F2001D1B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE9C4A9E1C8724F2001D1B49 /* Build configuration list for PBXNativeTarget "Swift Speed TestTests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +401,7 @@
 				AE9C4AA01C8724F2001D1B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
