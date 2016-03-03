@@ -22,11 +22,6 @@
     return 1000000; // one million
 }
 
-- (void)setUp {
-    [super setUp];
-    self.dictionary = [self dictionaryWithElements];
-}
-
 - (NSMutableDictionary *)dictionaryWithElements {
     NSMutableDictionary *dictionary = [NSMutableDictionary new];
     for (NSInteger i = 0; i < self.repeatCount; i++) {
@@ -34,6 +29,11 @@
     }
     
     return dictionary;
+}
+
+- (void)setUp {
+    [super setUp];
+    self.dictionary = [self dictionaryWithElements];
 }
 
 - (void)testAdd {

@@ -22,11 +22,6 @@
     return 1000000; // one million
 }
 
-- (void)setUp {
-    [super setUp];
-    self.array = [self arrayWithElements];
-}
-
 - (NSMutableArray *)arrayWithElements {
     NSMutableArray *array = [NSMutableArray new];
     for (NSInteger i = 0; i < self.repeatCount; i++) {
@@ -34,6 +29,11 @@
     }
     
     return array;
+}
+
+- (void)setUp {
+    [super setUp];
+    self.array = [self arrayWithElements];
 }
 
 - (void)testAdd {

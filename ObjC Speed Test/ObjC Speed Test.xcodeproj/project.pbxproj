@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1AE5921C8830B700F1B61E /* SetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1AE5911C8830B700F1B61E /* SetTests.m */; };
 		AE806B971C88207D001EC005 /* DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE806B961C88207D001EC005 /* DictionaryTests.m */; };
 		AE93BB901C8724D100655274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93BB8F1C8724D100655274 /* main.m */; };
 		AE93BB931C8724D100655274 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE93BB921C8724D100655274 /* AppDelegate.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE1AE5911C8830B700F1B61E /* SetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTests.m; sourceTree = "<group>"; };
 		AE806B961C88207D001EC005 /* DictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryTests.m; sourceTree = "<group>"; };
 		AE93BB8B1C8724D100655274 /* ObjC Speed Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC Speed Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE93BB8F1C8724D100655274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				AE93BBAA1C8724D100655274 /* Info.plist */,
 				AE9C4AA11C872762001D1B49 /* ArrayTests.m */,
 				AE806B961C88207D001EC005 /* DictionaryTests.m */,
+				AE1AE5911C8830B700F1B61E /* SetTests.m */,
 			);
 			path = "ObjC Speed TestTests";
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1AE5921C8830B700F1B61E /* SetTests.m in Sources */,
 				AE9C4AA21C872762001D1B49 /* ArrayTests.m in Sources */,
 				AE806B971C88207D001EC005 /* DictionaryTests.m in Sources */,
 			);
