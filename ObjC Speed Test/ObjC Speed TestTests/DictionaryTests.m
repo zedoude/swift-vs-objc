@@ -62,4 +62,15 @@
     }];
 }
 
+- (void)testFastEnum {
+    __block NSString *string;
+    
+    [self measureBlock:^{
+        for (NSString *key in self.dictionary) {
+            NSString *value = [self.dictionary valueForKey:key];
+            string = [key stringByAppendingString:value];
+        }
+    }];
+}
+
 @end

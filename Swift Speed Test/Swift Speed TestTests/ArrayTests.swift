@@ -10,15 +10,21 @@ import XCTest
 
 class ArrayTests: XCTestCase {
     
-    let repeatCount = 2
+    let repeatCount = 1_000_000
+    var array = [String]()
     
     func arrayWithElements() -> [String] {
         var array = [String]()
-        for _ in 0...repeatCount {
+        for _ in 0..<repeatCount {
             array.append("\(arc4random_uniform(1000))")
         }
         
         return array
+    }
+    
+    override func setUp() {
+        super.setUp()
+        array = arrayWithElements()
     }
     
     func testAdd() {
@@ -27,14 +33,13 @@ class ArrayTests: XCTestCase {
         }
     }
     
+    // It contains time for refilling the array, so should subtract avg time testAdd from the result.
     func testAccess() {
-        let array = arrayWithElements()
-        
         var string = String()
         
         measureBlock { 
-            for i in 0...self.repeatCount {
-                string = array[i]
+            for i in 0..<self.repeatCount {
+                string = self.array[i]
             }
         }
         
@@ -42,24 +47,19 @@ class ArrayTests: XCTestCase {
     }
     
     func testRemove() {
-        
         measureBlock {
-            var array = self.arrayWithElements()
-
-            for i in 0...self.repeatCount {
-                
-                array.removeLast()
+            for _ in 0..<self.repeatCount {
+                self.array.removeLast()
             }
+            self.array = self.arrayWithElements()
         }
     }
     
     func testFastEnum() {
-        let array = arrayWithElements()
-        
         var string = String()
         
         measureBlock { 
-            for arrayObject in array {
+            for arrayObject in self.array {
                 string = arrayObject
             }
         }

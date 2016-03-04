@@ -42,7 +42,7 @@
     }];
 }
 
-- (void)testAccess {
+- (void)testContains {
     [self measureBlock:^{
         for (NSInteger i = 0; i < self.repeatCount; i++) {
             [self.set containsObject:[NSString stringWithFormat:@"%li", (long)i]];

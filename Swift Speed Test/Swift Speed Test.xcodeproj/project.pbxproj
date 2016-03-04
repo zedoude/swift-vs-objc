@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1AE5941C88407B00F1B61E /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AE5931C88407B00F1B61E /* DictionaryTests.swift */; };
+		AE1AE5961C8859F200F1B61E /* SetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1AE5951C8859F200F1B61E /* SetTests.swift */; };
 		AE9C4A821C8724F2001D1B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C4A811C8724F2001D1B49 /* AppDelegate.swift */; };
 		AE9C4A841C8724F2001D1B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C4A831C8724F2001D1B49 /* ViewController.swift */; };
 		AE9C4A871C8724F2001D1B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9C4A851C8724F2001D1B49 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE1AE5931C88407B00F1B61E /* DictionaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
+		AE1AE5951C8859F200F1B61E /* SetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTests.swift; sourceTree = "<group>"; };
 		AE9C4A7E1C8724F2001D1B49 /* Swift Speed Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Speed Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9C4A811C8724F2001D1B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE9C4A831C8724F2001D1B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 			children = (
 				AE9C4A981C8724F2001D1B49 /* Info.plist */,
 				AE9C4AA31C872E31001D1B49 /* ArrayTests.swift */,
+				AE1AE5931C88407B00F1B61E /* DictionaryTests.swift */,
+				AE1AE5951C8859F200F1B61E /* SetTests.swift */,
 			);
 			path = "Swift Speed TestTests";
 			sourceTree = "<group>";
@@ -207,6 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9C4AA41C872E31001D1B49 /* ArrayTests.swift in Sources */,
+				AE1AE5961C8859F200F1B61E /* SetTests.swift in Sources */,
+				AE1AE5941C88407B00F1B61E /* DictionaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +351,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.droidsonroids.Swift-Speed-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -369,6 +378,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.droidsonroids.Swift-Speed-TestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Speed Test.app/Swift Speed Test";
 			};
 			name = Release;
