@@ -53,7 +53,7 @@
 - (void)testRemove {
 #warning It contains time for refilling the set, so should subtract avg time testAdd from the result.
     [self measureBlock:^{
-        for (NSInteger i = 0; i < self.set.count; i--) {
+        for (NSInteger i = 0; i < self.set.count; i++) {
             [self.set removeObject:[NSString stringWithFormat:@"%li", (long)i]];
         }
         self.set = [self setWithElements];
