@@ -28,13 +28,13 @@ class SetTests: XCTestCase {
     }
     
     func testAdd() {
-        measureBlock {
+        measure {
             _ = self.setWithElements()
         }
     }
     
     func testContains() {
-        measureBlock { 
+        measure { 
             for i in 0..<self.repeatCount {
                 _ = self.set.contains("\(i)")
             }
@@ -43,7 +43,7 @@ class SetTests: XCTestCase {
     
     // It contains time for refilling the set, so should subtract avg time testAdd from the result.
     func testRemove() {
-        measureBlock { 
+        measure { 
             for i in 0..<self.repeatCount {
                 self.set.remove("\(i)")
             }
@@ -52,7 +52,7 @@ class SetTests: XCTestCase {
     }
     
     func testFastEnum() {
-        measureBlock { 
+        measure { 
             for setElement in self.set {
                 _ = setElement
             }

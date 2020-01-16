@@ -2,15 +2,15 @@
 //  main.m
 //  ObjC Speed Test
 //
-//  Created by Piotr Sochalewski on 02.03.2016.
-//  Copyright © 2016 Droids On Roids. All rights reserved.
+//  Created by Cédric Ponchy on 16/01/2020.
+//  Copyright © 2020 zedoude. All rights reserved.
 //
 
-@import UIKit;
-#import "AppDelegate.h"
+#import <Foundation/Foundation.h>
 
-int main(int argc, char * argv[]) {
+int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        // insert code here...
     }
+    return 0;
 }

@@ -28,17 +28,17 @@ class DictionaryTests: XCTestCase {
     }
     
     func testAdd() {
-        measureBlock { 
+        measure { 
             _ = self.dictionaryWithElements()
         }
     }
     
     func testAccess() {
-        var string = String?()
+        var string = String()
         
-        measureBlock { 
+        measure { 
             for i in 0..<self.repeatCount {
-                string = self.dictionary["\(i)"]
+                string = self.dictionary["\(i)"]!
             }
         }
         
@@ -47,9 +47,9 @@ class DictionaryTests: XCTestCase {
     
     // It contains time for refilling the dictionary, so should subtract avg time testAdd from the result.
     func testRemove() {
-        measureBlock {
+        measure {
             for i in 0..<self.repeatCount {
-                self.dictionary.removeValueForKey("\(i)")
+                self.dictionary.removeValue(forKey: "\(i)")
             }
             self.dictionary = self.dictionaryWithElements()
         }
@@ -58,7 +58,7 @@ class DictionaryTests: XCTestCase {
     func testFastEnum() {
         var string = String()
         
-        measureBlock { 
+        measure { 
             for (key, value) in self.dictionary {
                 string = key + value
             }

@@ -28,7 +28,7 @@ class ArrayTests: XCTestCase {
     }
     
     func testAdd() {
-        measureBlock { 
+        measure { 
             _ = self.arrayWithElements()
         }
     }
@@ -37,7 +37,7 @@ class ArrayTests: XCTestCase {
     func testAccess() {
         var string = String()
         
-        measureBlock { 
+        measure { 
             for i in 0..<self.repeatCount {
                 string = self.array[i]
             }
@@ -47,7 +47,7 @@ class ArrayTests: XCTestCase {
     }
     
     func testRemove() {
-        measureBlock {
+        measure {
             for _ in 0..<self.repeatCount {
                 self.array.removeLast()
             }
@@ -58,7 +58,7 @@ class ArrayTests: XCTestCase {
     func testFastEnum() {
         var string = String()
         
-        measureBlock { 
+        measure { 
             for arrayObject in self.array {
                 string = arrayObject
             }
